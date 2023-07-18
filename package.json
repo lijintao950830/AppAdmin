@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "author": "chinasoft.jt.li <chinasoft.jt.li@Jusda2021>",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "format": "prettier --cache --write .",
+    "prepare": "husky install",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@ant-design/plots": "^1.2.5",
+    "@ant-design/pro-components": "^2.4.4",
+    "@antv/g2plot": "^2.4.31",
+    "@cloudbase/js-sdk": "^1.7.2",
+    "@umijs/max": "^4.0.69",
+    "ahooks": "^3.7.8",
+    "antd": "^5.4.0",
+    "cos-js-sdk-v5": "^1.4.18",
+    "konva": "9.0.2",
+    "lodash": "^4.17.21",
+    "react-konva": "18.2.8",
+    "video.js": "8.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "prettier-plugin-organize-imports": "^3.2.2",
+    "prettier-plugin-packagejson": "^2.4.3",
+    "typescript": "^5.0.3"
+  }
+}
